@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ID Card System</title>
+</head>
+<body>
+  <h2>ID Card Generation System</h2>
+  <p>Admin can manage users and generate ID cards.</p>
+</body>
+</html>
