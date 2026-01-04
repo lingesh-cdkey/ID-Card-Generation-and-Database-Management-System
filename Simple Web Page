@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>ID Card Generation System</title>
-</head>
-<body>
-  <h2>ID Card Generation and Database Management System</h2>
-  <p>This system allows admin to manage user data and generate ID cards.</p>
-</body>
-</html>
-
+<?php
+$conn = new mysqli("localhost", "root", "", "id_card_system");
+if ($conn->connect_error) {
+    die("Connection failed");
+}
+?>
